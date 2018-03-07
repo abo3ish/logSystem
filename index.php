@@ -10,6 +10,6 @@
 		echo "<a href='changepassword.php'>change password </a>" . "<br>";
 		echo "<a href='logout.php'>Logout</a>";
 	} else{
-		echo "You Need to <a href='login.php'>Login</a> or <a href='register.php'>Register</a>";
+		echo "You need to <a href='login.php'>Login</a> or <a href='register.php'>Register</a>";
 	}
 ?>
