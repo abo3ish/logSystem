@@ -15,7 +15,6 @@ if(Input::exists()){
 		$remember = (Input::get('remember') === 'on') ? true : false;
 		$login = $user->login(Input::get('username') , Input::get('password'),$remember);
 		if($login){
-			// echo Session::getSession('session_name');
 			header('location:index.php');
 		} else{
 			echo "faild";
